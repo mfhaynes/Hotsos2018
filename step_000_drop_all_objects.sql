@@ -1,0 +1,10 @@
+DROP TABLE src_test_tab;
+DROP FUNCTION rc_test_func;
+DROP TABLE src_force_test_tab;
+DROP TABLE src_stores;
+DROP TABLE src_sales;
+DROP TABLE src_gtt_test;
+DROP FUNCTION src_gtt_test_func ;
+DROP TABLE src_nls_date_test;
+DROP FUNCTION src_nls_test_func;
+DROP FUNCTION src_nls_test_func_w_input;
