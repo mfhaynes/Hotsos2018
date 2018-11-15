@@ -1,4 +1,10 @@
-set echo on
+create user rescache identified by "&rescachepw";
+grant resource to rescache;
+grant create session to rescache;
+grant unlimited tablespace to rescache;
+create tablespace rescache_ts;
+grant select_catalog_role to rescache;
+connect rescache@&db
 CREATE TABLE src_test_tab (field1 CHAR(1000), field2 NUMBER);
 INSERT INTO src_test_tab 
 (SELECT object_name, object_id FROM dba_objects);
