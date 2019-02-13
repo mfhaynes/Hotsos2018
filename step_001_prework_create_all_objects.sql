@@ -87,7 +87,7 @@ BEGIN
 END;
 /
 CREATE TABLE src_nls_date_test (field1 DATE);
-INSERT INTO src_nls_date_test (field1) VALUES ('15-JAN-2018');
+INSERT INTO src_nls_date_test (field1) VALUES ('13-FEB-2019');
 COMMIT;
 CREATE OR REPLACE FUNCTION src_nls_test_func 
 RETURN VARCHAR2 RESULT_CACHE IS
