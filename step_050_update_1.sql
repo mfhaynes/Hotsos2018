@@ -1,7 +1,7 @@
 set echo off
 set autotrace off
 set timing on
-set lines 120
+set lines 150
 set pages 40
 pause About to execute UPDATE SRC_TEST_TAB SET FIELD2=1 WHERE ROWNUM=1;
 set echo on

@@ -35,7 +35,7 @@ END;
 /
 CREATE TABLE src_force_test_tab (field1 CHAR(1000), field2 NUMBER);
 INSERT INTO src_force_test_tab 
-(SELECT object_name, object_id FROM dbA_objects);
+(SELECT object_name, object_id FROM dba_objects);
 COMMIT;
 INSERT INTO src_force_test_tab
 (SELECT rtrim(field1)||rtrim(field1), field2+1000000 

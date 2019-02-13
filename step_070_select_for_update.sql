@@ -1,7 +1,7 @@
 set echo off
 set autotrace off
 set timing on
-set lines 120
+set lines 150
 set pages 40
 pause About to execute SELECT FIELD1 FROM SRC_TEST_TAB WHERE ROWNUM=1 FOR UPDATE...
 set echo on

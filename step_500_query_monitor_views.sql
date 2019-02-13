@@ -1,7 +1,7 @@
 set echo off
 col name for a40
 col value for a20
-set lines 155
+set lines 150
 set pages 50
 set autotrace off
 pause About to query V$RESULT_CACHE_STATISTICS...

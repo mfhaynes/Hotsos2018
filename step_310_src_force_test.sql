@@ -1,6 +1,6 @@
 set echo off
 set timing on
-set lines 120
+set lines 150
 set pages 40
 col table_name for a30
 set autotrace on

@@ -1,4 +1,4 @@
-set lines 140
+set lines 150
 set pages 50
 set echo off
 pause About to execute SELECT src_gtt_test_func() FROM dual for the first time...
