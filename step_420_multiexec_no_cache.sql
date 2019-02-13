@@ -19,7 +19,7 @@ begin
   lvar := 1;
   while lvar <= 2500
   loop
-    SELECT /*+ RESULT_CACHE */ store_manager_id, SUM(sale_amount)
+    SELECT store_manager_id, SUM(sale_amount)
     BULK COLLECT INTO c_tab
     FROM src_stores JOIN src_sales ON store_id = sale_store_id
     WHERE sale_time > SYSDATE-1
