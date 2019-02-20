@@ -1,6 +1,6 @@
 set echo off
 pause About to run "Problem" query...
-set autotrace on
+set autotrace on statistics
 set echo on
 SELECT store_manager_id, SUM(sale_amount)
 FROM src_stores JOIN src_sales ON store_id = sale_store_id
