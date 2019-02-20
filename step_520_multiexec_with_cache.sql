@@ -1,3 +1,4 @@
+set timing on
 set serveroutput on
 declare 
 cursor sales_query IS
