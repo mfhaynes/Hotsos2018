@@ -20,7 +20,7 @@ begin
        (select value from v$sesstat, v$statname, v$session where v$sesstat.STATISTIC# = v$statname.STATISTIC#
         and v$session.sid = v$sesstat.sid and v$session.audsid = userenv('sessionid') and name in ('physical reads')) pr;
 
-  while lvar <= 2500
+  while lvar <= 1500
   loop
     WITH store_info_subq AS (SELECT /*+ RESULT_CACHE */ store_id, store_manager_id FROM src_stores)
     SELECT store_manager_id, SUM(sale_amount)

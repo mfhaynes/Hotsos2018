@@ -21,7 +21,7 @@ begin
         and v$session.sid = v$sesstat.sid and v$session.audsid = userenv('sessionid') and name in ('physical reads')) pr;
 
   lvar := 1;
-  while lvar <= 2500
+  while lvar <= 1500
   loop
     SELECT store_manager_id, SUM(sale_amount)
     BULK COLLECT INTO sales_tab
