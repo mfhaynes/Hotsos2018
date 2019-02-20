@@ -1,6 +1,6 @@
 set echo off
 set timing on
-set lines 150
+set lines 145
 set pages 40
 set echo on
 show parameter result_cache_max

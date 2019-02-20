@@ -1,7 +1,7 @@
 set echo off
 set autotrace on
 set timing on
-set lines 150
+set lines 145
 set pages 40
 pause About to execute SELECT rc_test_func(999999) FROM DUAL...
 set echo on

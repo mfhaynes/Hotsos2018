@@ -3,7 +3,7 @@ connect rescache@&database
 set echo off
 set autotrace on
 set timing on
-set lines 150
+set lines 145
 set pages 40
 pause About to execute SELECT AVG(FIELD2) FROM SRC_TEST_TAB...
 set echo on

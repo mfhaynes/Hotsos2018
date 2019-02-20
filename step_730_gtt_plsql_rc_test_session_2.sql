@@ -1,4 +1,4 @@
-set lines 150
+set lines 145
 set pages 50
 set echo off
 set autotrace off

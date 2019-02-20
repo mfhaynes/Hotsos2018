@@ -1,4 +1,4 @@
-set lines 150
+set lines 145
 set pages 50
 set echo off
 pause About to execute INSERT INTO src_gtt_test VALUES (123) and commit...
