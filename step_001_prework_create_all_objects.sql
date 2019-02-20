@@ -105,3 +105,4 @@ BEGIN
   RETURN to_char(max_date, dt_format);
 END;
 /
+exec dbms_stats.gather_schema_stats(ownname=>'RESCACHE');
